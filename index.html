@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>E-commerce website</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+    <nav id="navbar">
+        <a href="#">
+            <img src="./img/logo.png" alt="logo">
+        </a>
+        <div id="navbar1">
+            <ul id="navbar2" class="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- navbar -->
+
+    <section id="hero">
+        <h4>Trade-in-offer</h4>
+        <h2>Super value deals</h2>
+        <h1>on all products</h1>
+        <p>save more with coupons & upto 70% off! </p>
+        <button>Shop Now</button>
+    </section>
+
+    <!-- hero-section -->
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/slide1.png" class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800"
+                    height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555"
+                    dy=".3em"></text></img>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/slide2.jpg" class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800"
+                    height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444"
+                    dy=".3em"></text></img>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/slide3.jpg" class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800"
+                    height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333"
+                    dy=".3em"></text></img>
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- slidebar -->
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="img/features/f1.png" alt="">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f2.png" alt="">
+            <h6>Online Order</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f3.png" alt="">
+            <h6>Save Money</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f4.png" alt="">
+            <h6>Promotions</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f5.png" alt="">
+            <h6>Happy Sell</h6>
+        </div>
+        <div class="fe-box">
+            <img src="img/features/f6.png" alt="">
+            <h6>24/7 Support</h6>
+        </div>
+    </section>
+
+    <!-- features section -->
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Summer collection New Moder Design</p>
+        <div class="container">
+            <div class="pro-container">
+                <img src="img/products/f1.jpg" alt="image">
+                <div class="des">
+                    <span>Addidas</span>
+                    <h5>Cartoon printed T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹400</h4>
+                </div>
+                <a href="productdetail.html" class="cart"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/products/f2.jpg" alt="">
+                </div>
+                <div class="des">
+                    <span>Addidas</span>
+                    <h5>Cartoon printed T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹400</h4>
+                </div>
+                <a href="productdetail.html" class="cart"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/products/f3.jpg" alt="">
+                </div>
+                <div class="des">
+                    <span>Addidas</span>
+                    <h5>Cartoon printed T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹400</h4>
+                </div>
+                <a href="productdetail.html" class="cart"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/products/f4.jpg" alt="">
+                </div>
+                <div class="des">
+                    <span>Addidas</span>
+                    <h5>Cartoon printed T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹400</h4>
+                </div>
+                <a href="productdetail.html" class="cart"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/products/f5.jpg" alt="">
+                </div>
+                <div class="des">
+                    <span>Addidas</span>
+                    <h5>Cartoon printed T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹400</h4>
+                </div>
+                <a href="productdetail.html" class="cart"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/products/f6.jpg" alt="">
+                </div>
+                <div class="des">
+                    <span>Addidas</span>
+                    <h5>Cartoon printed T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹400</h4>
+                </div>
+                <a href="productdetail.html" class="cart"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/products/f7.jpg" alt="">
+                </div>
+                <div class="des">
+                    <span>Addidas</span>
+                    <h5>Cartoon printed T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹400</h4>
+                </div>
+                <a href="productdetail.html" class="cart"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/products/f8.jpg" alt="">
+                </div>
+                <div class="des">
+                    <span>Addidas</span>
+                    <h5>Cartoon printed T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹400</h4>
+                </div>
+                <a href="productdetail.html" class="cart"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- product Arrived -->
+
+    <section id="banner" class="section-m1">
+        <h4>Repair Services</h4>
+        <h2>Up To <span>70% off</span> - Tshirt & Accessories</h2>
+        <button class="normal">Explore More</button>
+    </section>
+
+    <!-- banner 1 -->
+
+    <section id="product1" class="section-p1">
+        <h2>New Arrivals</h2>
+        <p>Summer Collection New Modern Design</p>
+        <div class="container">
+            <div class="pro-container">
+                <img src="img/products/n1.jpg" alt="image">
+                <div class="des">
+                    <span>Addidas</span>
+                    <h5>Cartoon printed T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹400</h4>
+                </div>
+                <a href="#" class="cart"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/products/n2.jpg" alt="">
+                </div>
+                <div class="des">
+                    <span>Addidas</span>
+                    <h5>Cartoon printed T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹400</h4>
+                </div>
+                <a href="#" class="cart"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/products/n3.jpg" alt="">
+                </div>
+                <div class="des">
+                    <span>Addidas</span>
+                    <h5>Cartoon printed T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹400</h4>
+                </div>
+                <a href="#" class="cart"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/products/n4.jpg" alt="">
+                </div>
+                <div class="des">
+                    <span>Addidas</span>
+                    <h5>Cartoon printed T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹400</h4>
+                </div>
+                <a href="#" class="cart"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/products/n5.jpg" alt="">
+                </div>
+                <div class="des">
+                    <span>Addidas</span>
+                    <h5>Cartoon printed T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹400</h4>
+                </div>
+                <a href="#" class="cart"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/products/n6.jpg" alt="">
+                </div>
+                <div class="des">
+                    <span>Addidas</span>
+                    <h5>Cartoon printed T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹400</h4>
+                </div>
+                <a href="#" class="cart"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/products/n7.jpg" alt="">
+                </div>
+                <div class="des">
+                    <span>Addidas</span>
+                    <h5>Cartoon printed T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹400</h4>
+                </div>
+                <a href="#" class="cart"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/products/n8.jpg" alt="">
+                </div>
+                <div class="des">
+                    <span>Addidas</span>
+                    <h5>Cartoon printed T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹400</h4>
+                </div>
+                <a href="#" class="cart"><i class="fas fa-cart-shopping"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- new arrivals -->
+
+    <Section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>Crazy deals</h4>
+            <h2>Buy 1 get 1 Free</h2>
+            <span>The best classic dress is on sale at cara</span>
+            <button class="white">Explore More</button>
+        </div>
+        <div class="banner-box banner-box2">
+            <h4>Spring/Summer</h4>
+            <h2>Upcoming Season</h2>
+            <span>The best classic dress is on sale at cara</span>
+            <button class="white">Collection</button>
+        </div>
+    </Section>
+
+    <!-- banner 2 -->
+
+    <section id="banner3">
+        <div class="box">
+            <h2>Season Sale</h2>
+            <h3>Winter colletion -50% OFF</h3>
+        </div>
+        <div class="box box2">
+            <h2>New Jackets Collection</h2>
+            <h3>Winter colletion -50% OFF</h3>
+        </div>
+        <div class="box box3">
+            <h2> T-shirt </h2>
+            <h3>New Trendy Prints</h3>
+        </div>
+
+    </section>
+
+    <!-- banner 3 -->
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>SingUp for newsletter</h4>
+            <p>Get E-mail update about our latest shop <span>special offer</span> </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Enter Your mail id">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <!-- newsletter -->
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address : </strong>Govindpuri Kalkaji New Delhi Delhi -110019</p>
+            <p><strong>Phone no : </strong>8010232258/8810310686</p>
+            <p><strong>Hours : </strong>10:00 - 18:00 , Mon-Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <a href="#">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-pinterest"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy and policy</a>
+            <a href="#">Terms and condition</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Whishlist</a>
+            <a href="#">Track my Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App store or Google store</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="img">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secure payment gateway</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>2023-24 @ E-commerce website</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
